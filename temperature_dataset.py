@@ -43,15 +43,3 @@ class TemperatureDataset:
         data = np.random.randint(-40, 40, index.shape)
         self.data_frame = pd.DataFrame(
             data=data, index=index, columns=["temperature"])
-
-
-cities = ["Andorrala Vella", "Vienna", "Minsk", "Brussels", "Sarajevo",
-          "Sofia",  "Zagreb",  "Prague",  "Copenhagen",  "Tallinn",
-          "Helsinki",  "Paris",  "Berlin",  "Athens",  "Budapest",
-          "Reykjavik",  "Dublin",  "Rome",  "Riga",  "Vaduz",  "Vilnius",
-          "Luxembourg",  "Valletta",  "Chisinau",  "Monaco",  "Podgorica",
-          "Amsterdam",  "Haag",  "Skopje",  "Oslo",  "Warsaw",  "Lisbon",
-          "Bucharest",  "Moscow",  "San Marino",  "Belgrade",  "Bratislava",
-          "Ljubljana",  "Madrid",  "Stockholm",  "Bern",  "Kiev",  "London"]
-dates = pd.date_range(start="2020-01-01", end="2020-12-31")
-
